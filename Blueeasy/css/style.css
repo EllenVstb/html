@@ -1,0 +1,149 @@
+*{
+    box-sizing:border-box;
+    /*margin:0;*/
+    /*padding:0;*/
+}
+/** GENERAL CSS SETTINGS **/
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.text-center{
+    text-align:center;
+}
+
+.w-25{
+    width:25%;
+}
+.w-40{
+    width:40%;
+}
+.w-50{
+    width:50%;
+}
+.w-60{
+    width:60%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
+
+
+/** BEGIN FONTS **/
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../webfonts/Segoe UI.woff");
+}
+
+/** END FONTS **/
+
+#body{
+    width:1920px;
+    margin:0 auto;
+}
+
+
+header{
+    background: url('../images/background.png') no-repeat;
+}
+
+/**BEGIN nav**/
+
+nav{
+
+    background:rgba(64,74,82,50%);
+}
+#mijnnavigatie{
+    padding:20px 0px;
+    width:1172px;
+    margin:0 auto;
+}
+nav li{
+    list-style-type: none;
+    font-family: "Segoe UI";
+}
+nav li a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+nav li a:hover{
+    border:5px solid #4bcaff;
+}
+
+nav p{
+    font-size:42px;
+    margin:0px;
+    font-family: "Segoe UI";
+    padding-left:15px;
+}
+/**END nav**/
+
+/**BEGIN hero**/
+
+#hero p{
+    font-family: "Segoe UI";
+    font-size: 84px;
+    }
+
+/**END hero**/
+
+
+/**BEGIN SERVICES**/
+#services{
+    width:1920px;
+    margin:0 auto;
+    background-color:#4bcaff;
+    font-family: "Segoe UI";
+    width: 1920px;
+    color: #FFFFFF;
+}
+/**END SERVICES **/
+
+/**BEGIN DEFAULT **/
+#default{
+background-color:#515f67;
+font-family: "Segoe UI";
+width: 1920px;
+color: #FFFFFF;
+}
+
+
+/**END DEFAULT **/
+
+
+footer{
+    border-top: 1px solid #4bcaff;
+    font-family: "Segoe UI";
+    color: #515f67;
+}
